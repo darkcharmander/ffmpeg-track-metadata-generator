@@ -8,7 +8,7 @@ Suppose you have 'tracklist.txt', with the following content:
 
 And you want to use this tracklist for use in some audio file. Well... you can make the FFMETADATA file by hand (which is tedious), or use this tool to generate it for you.\
 \
-Usage: `ffmpeg_track_metadata_generator [input file name] [total track time (?(hh):mm:ss)]`\
+Usage: `ffmpeg-track-metadata-generator [input file name] [total track time (?(hh):mm:ss)]`\
 \
 The resulting **metadata.txt** is going to look like this:
 >;FFMETADATA1\
